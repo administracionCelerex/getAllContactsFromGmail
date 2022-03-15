@@ -21,7 +21,7 @@ Esta programa por medio de un token, saca todos lo contactos de un usuario de Gm
 const token = `PONER EL TOKEN AQUI`;
 ```
 
-6. Ejecutar el comando npm install dentro del proyecto, esto debe generar el archivo contactos.json
+6. Ejecutar el comando node app.js dentro del proyecto, esto debe generar el archivo contactos.json
 
 
 ## **Notas**
