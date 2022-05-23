@@ -1,9 +1,9 @@
 const contacts = require("./contacts");
 const lambda = require("./fillDBUser");
+const { token } = require("./env");
 
 const fs = require("fs");
 
-const token = ``;
 
 const getContacts = async (token) => {
   const allCont = await contacts.getAllContacts(token);

@@ -1,8 +1,7 @@
 const axios = require("axios");
-const correo = "daniel.badial@gmail.com";
+const { email: correo } = require("./env");
 const personFields =
   "names,biographies,occupations,genders,emailAddresses,organizations,phoneNumbers,addresses,nicknames,birthdays,events,relations,memberships,metadata,userDefined";
-
 
 const personFieldsShort = "names,emailAddresses,phoneNumbers";
 const getContactsUser = async (token, email) => {
